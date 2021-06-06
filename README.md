@@ -4,4 +4,4 @@
 
 |   Организм  |   Стр. ДНК   | Тип клеток | Гистоновая метка |    файл 1   |    файл 2   |
 |:-----------:|:------------:|:----------:|:----------------:|:-----------:|:-----------:|
-| mouse(mm10) | ZDNA_mouse_1 |   ES-E14   |      H3K4me1     | [ENCFF158GBZ](https://www.encodeproject.org/files/ENCFF158GBZ/) | [ENCFF319KES](https://www.encodeproject.org/files/ENCFF319KES/) |
+| mouse(mm10) | ZDNA_mouse_1 |   ES-E14   |      H3K4me1     | [ENCFF158GBZ](https://www.encodeproject.org/files/ENCFF158GBZ/) | [ENCFF147SYC](https://www.encodeproject.org/files/ENCFF147SYC/) |
