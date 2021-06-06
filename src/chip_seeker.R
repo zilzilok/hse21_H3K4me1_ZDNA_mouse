@@ -2,18 +2,22 @@ source('lib.R')
 
 ###
 
-# if (!requireNamespace("BiocManager", quietly = TRUE))
-#   install.packages("BiocManager")
-# BiocManager::install("TxDb.Mmusculus.UCSC.mm10.knownGene")
-BiocManager::install("vctrs")
+#if (!requireNamespace("BiocManager", quietly = TRUE))
+#  install.packages("BiocManager")
+#BiocManager::install("TxDb.Mmusculus.UCSC.mm10.knownGene")
+#BiocManager::install("ChIPseeker")
+#BiocManager::install("clusterProfiler")
+#BiocManager::install("org.Hs.eg.db")
 
-library(ChIPseeker)
 library(TxDb.Mmusculus.UCSC.mm10.knownGene)
+library(ChIPseeker)
 library(clusterProfiler)
+library(org.Hs.eg.db)
 
 ###
 
-NAME <- 'H3K4me1_ES-E14.ENCFF147SYC.mm10.filtered'
+NAME <- 'mouseZ-DNA1'
+#NAME <- 'H3K4me1_ES-E14.ENCFF147SYC.mm10.filtered'
 #NAME <- 'H3K4me1_ES-E14.ENCFF158GBZ.mm10.filtered'
 
 OUT_DIR <- '../results/chip_seeker/'
