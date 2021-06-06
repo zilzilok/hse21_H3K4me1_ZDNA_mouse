@@ -1,0 +1,8 @@
+track visibility=dense name="ENCFF158GBZ" description="H3K4me1_ES-E14.ENCFF158GBZ.mm10.filtered.bed"
+https://raw.githubusercontent.com/zilzilok/hse21_H3K4me1_ZDNA_mouse/master/data/H3K4me1_ES-E14.ENCFF158GBZ.mm10.filtered.bed
+
+track visibility=dense name="ENCFF147SYC" description="H3K4me1_ES-E14.ENCFF147SYC.mm10.filtered.bed"
+https://raw.githubusercontent.com/zilzilok/hse21_H3K4me1_ZDNA_mouse/master/data/H3K4me1_ES-E14.ENCFF147SYC.mm10.filtered.bed
+
+track visibility=dense name="merge" color=50,50,200 description="H3K4me1_ES-E14.merge.mm10.bed"
+https://raw.githubusercontent.com/zilzilok/hse21_H3K4me1_ZDNA_mouse/master/data/H3K4me1_ES-E14.merge.mm10.bed
