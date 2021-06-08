@@ -1,0 +1,5 @@
+track visibility=dense name="mouseZ-DNA1"  color=0,200,0  description="mouseZ-DNA1"
+https://raw.githubusercontent.com/zilzilok/hse21_H3K4me1_ZDNA_mouse/master/data/mouseZ-DNA1.bed
+
+track visibility=dense name="intersect_with_mouseZ-DNA1"  color=200,0,0  description="H3K4me1_ES-E14.intersect_with_mouseZ-DNA1.bed"
+https://raw.githubusercontent.com/zilzilok/hse21_H3K4me1_ZDNA_mouse/master/data/H3K4me1_ES-E14.intersect_with_mouseZ-DNA1.bed
