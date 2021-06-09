@@ -100,6 +100,8 @@ https://raw.githubusercontent.com/zilzilok/hse21_H3K4me1_ZDNA_mouse/master/data/
 track visibility=dense name="intersect_with_mouseZ-DNA1"  color=200,0,0  description="H3K4me1_ES-E14.intersect_with_mouseZ-DNA1.bed"
 https://raw.githubusercontent.com/zilzilok/hse21_H3K4me1_ZDNA_mouse/master/data/H3K4me1_ES-E14.intersect_with_mouseZ-DNA1.bed
 ```
+`chr1:22,806,253-22,806,292`
+
 ![](results/genome_browser/2.png)
 
 **Ассоциируем полученные пересечения с ближайшими генами.**
@@ -107,6 +109,8 @@ https://raw.githubusercontent.com/zilzilok/hse21_H3K4me1_ZDNA_mouse/master/data/
 В результате получили [51](data/H3K4me1_ES-E14.intersect_with_mouseZ-DNA1.genes.txt) ассоциацию пиков с генами, и которых [49](data/H3K4me1_ES-E14.intersect_with_mouseZ-DNA1.genes_uniq.txt) уникальных.
 
 **GO-анализ для полученных уникальных генов.**
+
+Значимых результатов нет :(
 
 ![](results/panther/results.png)
 
