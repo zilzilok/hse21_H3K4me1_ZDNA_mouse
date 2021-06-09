@@ -2,9 +2,10 @@ source('lib.R')
 
 ###
 
-NAME <- 'mouseZ-DNA1'
+#NAME <- 'mouseZ-DNA1'
 #NAME <- 'H3K4me1_ES-E14.ENCFF147SYC.mm10'
 #NAME <- 'H3K4me1_ES-E14.ENCFF158GBZ.mm10'
+NAME <- 'H3K4me1_ES-E14.intersect_with_mouseZ-DNA1'
 
 DATA_DIR <- '../data/'
 OUT_DIR <- '../results/len_hist/'
