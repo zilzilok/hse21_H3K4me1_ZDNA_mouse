@@ -29,11 +29,11 @@ zcat ENCFF147SYC.bed.gz | cut -f1-5 > H3K4me1_ES-E14.ENCFF147SYC.mm10.bed
 
 **Среди ChIP-seq пиков для нужной версии генома (hg19 для человека и mm10 для мыши) выкидываем слишком длинные пики (>= 1000).**
 
-init ENCFF147SYC             |  fitered ENCFF147SYC
+init ENCFF147SYC             |  filtered ENCFF147SYC
 :-------------------------:|:-------------------------:
 ![](results/filter_peaks/filter_peaks.H3K4me1_ES-E14.ENCFF158GBZ.mm10.init.hist.png)  |  ![](results/filter_peaks/filter_peaks.H3K4me1_ES-E14.ENCFF158GBZ.mm10.filtered.hist.png)
 
-init ENCFF147SYC             |  fitered ENCFF147SYC
+init ENCFF147SYC             |  filtered ENCFF147SYC
 :-------------------------:|:-------------------------:
 ![](results/filter_peaks/filter_peaks.H3K4me1_ES-E14.ENCFF147SYC.mm10.init.hist.png)  |  ![](results/filter_peaks/filter_peaks.H3K4me1_ES-E14.ENCFF147SYC.mm10.filtered.hist.png)
 
