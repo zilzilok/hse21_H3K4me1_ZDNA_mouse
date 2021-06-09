@@ -5,3 +5,25 @@
 |   Организм  |   Стр. ДНК   | Тип клеток | Гистоновая метка |    файл 1   |    файл 2   |
 |:-----------:|:------------:|:----------:|:----------------:|:-----------:|:-----------:|
 | mouse(mm10) | ZDNA_mouse_1 |   ES-E14   |      H3K4me1     | [ENCFF158GBZ](https://www.encodeproject.org/files/ENCFF158GBZ/) | [ENCFF147SYC](https://www.encodeproject.org/files/ENCFF147SYC/) |
+
+### Анализ пиков гистоновой метки
+
+**Скачиваем файлы ChIP-seq экспериментов из ENCODE (пики гистоновой метки).**
+
+- ENCFF158GBZ
+```bash
+wget https://www.encodeproject.org/files/ENCFF158GBZ/@@download/ENCFF158GBZ.bed.gz
+zcat ENCFF158GBZ.bed.gz | cut -f1-5 > H3K4me1_ES-E14.ENCFF158GBZ.mm10.bed
+```
+- ENCFF147SYC
+```bash
+wget https://www.encodeproject.org/files/ENCFF147SYC/@@download/ENCFF147SYC.bed.gz
+zcat ENCFF147SYC.bed.gz | cut -f1-5 > H3K4me1_ES-E14.ENCFF147SYC.mm10.bed
+```
+
+**Строим гистограмму длин участков для каждого эксперимента.**
+
+![](results\len_hist\len_hist.H3K4me1_ES-E14.ENCFF147SYC.mm10.png)
+![](results\len_hist\len_hist.H3K4me1_ES-E14.ENCFF158GBZ.mm10.png)
+
+**Среди ChIP-seq пиков для нужной версии генома (hg19 для человека и mm10 для мыши) выкидываем слишком длинные пики ($> 1000$)**
