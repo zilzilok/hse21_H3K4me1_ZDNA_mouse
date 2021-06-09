@@ -105,3 +105,12 @@ https://raw.githubusercontent.com/zilzilok/hse21_H3K4me1_ZDNA_mouse/master/data/
 **Ассоциируем полученные пересечения с ближайшими генами.**
 
 В результате получили [51](data/H3K4me1_ES-E14.intersect_with_mouseZ-DNA1.genes.txt) ассоциацию пиков с генами, и которых [49](data/H3K4me1_ES-E14.intersect_with_mouseZ-DNA1.genes_uniq.txt) уникальных.
+
+### Для групповой работы
+
+```bash
+wget https://hgdownload.cse.ucsc.edu/goldenpath/mm10/liftOver/mm10ToHg19.over.chain.gz
+
+liftOver H3K4me1_ES-E14.intersect_with_mouseZ-DNA1.bed mm10ToHg19.over.chain.gz \
+H3K4me1_ES-E14.intersect_with_mouseZ-DNA1.hg19.bed _unmapped.txt
+```
