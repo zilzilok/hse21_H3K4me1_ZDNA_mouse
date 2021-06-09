@@ -106,6 +106,10 @@ https://raw.githubusercontent.com/zilzilok/hse21_H3K4me1_ZDNA_mouse/master/data/
 
 В результате получили [51](data/H3K4me1_ES-E14.intersect_with_mouseZ-DNA1.genes.txt) ассоциацию пиков с генами, и которых [49](data/H3K4me1_ES-E14.intersect_with_mouseZ-DNA1.genes_uniq.txt) уникальных.
 
+**GO-анализ для полученных уникальных генов.**
+
+![](results/panther/results.png)
+
 ### Для групповой работы
 
 ```bash
